@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    /*在移动端，我们浏览器版本普遍较高，内核一般兼容webkit*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body,html{
+    font-family: "microsoft YaHei", "sans-serif";
+    color: #333;
+    height: 100%;
+    width: 100%;
+    background: #ededed;
+}
+.padd46{
+    padding-top: 46px;
+  }
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited {
+    color: #333;
+    text-decoration: none !important;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+ul li:hover {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    height: 0;
+    display: block;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.van-nav-bar{
+    border-bottom: 1px solid #f9f9f9;
+}
+
+
